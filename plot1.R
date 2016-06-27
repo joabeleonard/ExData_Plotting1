@@ -4,4 +4,3 @@ plotData <- read.table("household_power_consumption.txt")
 hist(plotData$Global_active_power, col = "red", main = paste("Global Active Power"), xlab = "Global Active Power (kilowatts)")
 
 
-

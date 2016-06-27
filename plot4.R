@@ -16,3 +16,4 @@ lines(finalData$SetTime, finalData$Sub_metering_3, type="l", col="blue")
 legend("topright", bty="n", legend=labels, lty=1, col=columnlines)
 plot(finalData$SetTime, finalData$Global_reactive_power, type="l", col="blue", xlab="datetime", ylab="Global_reactive_power")
 
+
